@@ -1,0 +1,40 @@
+@import './../../styles/variables.scss';
+.nav {
+  position: relative;
+  height: 80px;
+  background: $swatch_1;
+  .nav-content {
+    max-width: 1600px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .nav-left {
+      height: 100%;
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .nav-logo {
+      }
+    }
+
+    .nav-right {
+      height: 100%;
+      ul {
+        height: 100%;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        li {
+          padding: 10px;
+          color: $swatch_3;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
